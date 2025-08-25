@@ -1,0 +1,524 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "be544617-72ee-40b0-aa7e-c50946fb785a")
+	(paper "A4")
+	(title_block
+		(title "MES Main Board")
+		(date "2025-01-21")
+		(rev "1.0")
+		(company "Robotics")
+	)
+	(lib_symbols)
+	(sheet
+		(at 168.91 39.37)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03e9b00b-72bf-4a66-bf38-637b2404b7cb")
+		(property "Sheetname" "SDcard_eMMC"
+			(at 168.91 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDcard_eMMC.kicad_sch"
+			(at 168.91 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 39.37)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a55e677-55f6-454d-b5b0-668472d99a26")
+		(property "Sheetname" "ETHERNET"
+			(at 66.04 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHERNET.kicad_sch"
+			(at 66.04 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 39.37)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bd439ab-3e71-48f6-b227-2f88a2c6de0f")
+		(property "Sheetname" "VIDEO"
+			(at 104.14 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VIDEO.kicad_sch"
+			(at 104.14 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 78.74)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "135a5809-9728-45ad-9224-6d96cb0e8113")
+		(property "Sheetname" "Peripherals"
+			(at 66.04 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 66.04 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 78.74)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "249669ca-4e42-4825-8b6b-f3fe89587a43")
+		(property "Sheetname" "Audio"
+			(at 30.48 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 30.48 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 123.19)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6053e72e-52a8-46a7-990f-86df5d169013")
+		(property "Sheetname" "Power PMIC"
+			(at 168.91 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power PMIC.kicad_sch"
+			(at 168.91 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 123.19)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99d2d3f6-7b82-4970-8305-b72394404220")
+		(property "Sheetname" "WiFi_Bluetooth"
+			(at 66.04 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WiFi_Bluetooth.kicad_sch"
+			(at 66.04 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 78.74)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e21c07d-15d7-41f1-ad12-7241943f1673")
+		(property "Sheetname" "DDR4-SDRAM"
+			(at 168.91 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR4-SDRAM.kicad_sch"
+			(at 168.91 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 39.37)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adf7bcff-ae8b-4142-8b44-e2aa98b9373a")
+		(property "Sheetname" "QSPI_NOR"
+			(at 204.47 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "QSPI_NOR.kicad_sch"
+			(at 204.47 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 123.19)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0c9014d-2e4e-49ce-b893-eecaeb1cc364")
+		(property "Sheetname" "Power MPU"
+			(at 105.41 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power MPU.kicad_sch"
+			(at 105.41 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 78.74)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2fcc414-1045-4424-8227-538cd42ec36a")
+		(property "Sheetname" "STM32MP257 IOs"
+			(at 104.14 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32MP257 IOs.kicad_sch"
+			(at 104.14 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 123.19)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d53b4a49-fe55-46f3-a143-dda13609db3c")
+		(property "Sheetname" "AI"
+			(at 30.48 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AI.kicad_sch"
+			(at 30.48 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MES Main Board"
+				(path "/be544617-72ee-40b0-aa7e-c50946fb785a"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
