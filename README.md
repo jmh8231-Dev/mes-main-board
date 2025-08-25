@@ -75,7 +75,7 @@ STM32MP257 기반 임베디드 메인보드. DSI→HDMI, GbE, Wi-Fi/BT, eMMC/µS
 
 ---
 
-## 4. Bring-up 절차(권장)
+## 4. Bring-up 절차
 
 1. **전원/시퀀스**: STPMIC25 레일 타이밍·리플 측정, ATX 입력 보호/서지 경로 확인.
 2. **LPDDR4**: TF-A/U-Boot에서 training 로그 확인, `memtester`로 장시간 스트레스.
@@ -103,22 +103,3 @@ STM32MP257 기반 임베디드 메인보드. DSI→HDMI, GbE, Wi-Fi/BT, eMMC/µS
 - ATmega328P: 보조 MCU 인터페이스(UART/I²C/SPI) 노드
 
 ---
-
-## 6. 파일/이미지 배치 가이드
-├─ README.md
-└─ docs/
-├─ mes_key_components.csv # 핵심 부품 요약 (선택)
-└─ images/
-├─ hero-3d-top.png
-├─ pcb-layout.png
-├─ schematic-overview.png
-├─ schematic-ethernet.png
-├─ schematic-video.png
-├─ schematic-sd-emmc.png
-├─ schematic-qspi.png
-├─ schematic-wifi-bt.png
-├─ schematic-audio.png
-├─ schematic-lvds-camera.png
-├─ schematic-pmic.png
-├─ schematic-mpu-power.png
-└─ schematic-ddr.png
